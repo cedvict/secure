@@ -25,7 +25,7 @@ $container = new \Slim\Container();
 
 // Adding logger to Slim container
 $container['secure'] = function($c) {
-  return new Cedvict\Secure('public_key_file', 'private_key_file');
+  return new Cedvict\Secure('public_key_file', 'private_key_file', 'passphrase');
 };
 
 $app = new \Slim\App($container);
