@@ -5,7 +5,7 @@ Based on RSA algorithm for Slim framework. Secure works well as class library (i
 You can install Logger via [composer](https://getcomposer.org/).
 
 ``
-$ composer require cedvict/secure --dev dev-master
+$ composer require cedvict/secure
 ``
 
 Requires Slim Framework 3 and PHP 5.5.0 or newer. Visit Secure repository at [Packagist](https://packagist.org/packages/cedvict/secure).
