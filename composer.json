@@ -1,22 +1,14 @@
 {
-  "name": "cedvict/secure",
-  "description": "Encrypt and Decrypt class and middleware for Slim framework 3",
-  "keywords": ["slim", "middleware", "secure", "encrypt", "decrypt"],
-  "homepage": "https://github.com/cedvict/secure",
-  "type": "library",
-  "authors": [
-    {
-      "name": "Cedvict Heinz Loknov Doofenshmirtz",
-      "email": "cedvict@gmail.com",
-      "homepage": ""
-    }
-  ],
-  "require": {
-    "psr/http-message": "^1.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Cedvict\\Secure\\": "src"
-    }
-  }
+    "name": "cedvict/secure",
+    "description": "Encrypt and Decrypt for Slim Framework 3",
+    "type": "Library",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Cedvict Heinz Loknov Doofenschmirtz",
+            "email": "cedvict@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
